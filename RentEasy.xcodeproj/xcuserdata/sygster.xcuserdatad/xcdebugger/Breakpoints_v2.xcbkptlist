@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7D345D3C-A257-4B61-A6A4-2BC390D6FA2F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RentEasy/HomePageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "HomePageViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7 - 3a7686e23677cdb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RentEasy.HomePageViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RentEasy.HomePageViewController"
+                  moduleName = "RentEasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sygster/Documents/georgian-assignments/RentEasyIOS/RentEasy/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7 - 270d97c873a21bef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RentEasy.HomePageViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; RentEasy.HomePageViewController"
+                  moduleName = "RentEasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sygster/Documents/georgian-assignments/RentEasyIOS/RentEasy/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7 - 44f2b219ca1b155"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RentEasy.HomePageViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RentEasy.HomePageViewController&gt;"
+                  moduleName = "RentEasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sygster/Documents/georgian-assignments/RentEasyIOS/RentEasy/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7 - c35d790e51b470e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RentEasy.HomePageViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;RentEasy.HomePageViewController&gt;"
+                  moduleName = "RentEasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sygster/Documents/georgian-assignments/RentEasyIOS/RentEasy/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "184">
+               </Location>
+               <Location
+                  uuid = "C6B7575D-950D-4F3C-9DA5-9C42FEA553D7 - ca98741f03debbd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RentEasy.HomePageViewController.__deallocating_deinit"
+                  moduleName = "RentEasy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sygster/Documents/georgian-assignments/RentEasyIOS/RentEasy/HomePageViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
