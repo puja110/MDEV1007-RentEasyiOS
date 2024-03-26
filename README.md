@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MDEV1012_RentEasyIOS
 ​The RentEasy project presents a modern iOS application designed to facilitate the rental search and supervision of student housing. RentEasy, created by codeSOMPs, resolves typical problems that landlords and students encounter. The main goals of the app are to make house searching easier to increase accessibility.
 
@@ -20,3 +21,6 @@
 ![simulator_screenshot_FE117AE0-205D-4A13-B37C-FE43211DE581](https://github.com/puja110/MDEV1012-RentEasyIOS/assets/26729312/162d8598-3e16-4a22-b261-88081aa449d5)
 ![simulator_screenshot_91146326-768E-43C8-9308-21856A287864](https://github.com/puja110/MDEV1012-RentEasyIOS/assets/26729312/2f45a192-9902-4e59-a574-e4821bdf7819)
 ![simulator_screenshot_59876735-D05B-4F68-81A4-3C77FAEDAB17](https://github.com/puja110/MDEV1012-RentEasyIOS/assets/26729312/4738782a-2f3a-4333-b501-a007d6539430)
+=======
+# MDEV1007-RentEasyiOS
+>>>>>>> origin/main
