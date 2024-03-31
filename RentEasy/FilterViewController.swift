@@ -115,6 +115,7 @@ class FilterViewController: UIViewController, CLLocationManagerDelegate, UITextF
 //            if let image = UIImage(data: houses.image!) {
 //                annotation.image = image
 //            }
+        
             annotation.selectedItem = houses
             mapView.addAnnotation(annotation)
         }

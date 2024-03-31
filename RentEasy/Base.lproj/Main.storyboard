@@ -76,7 +76,7 @@
                                 <rect key="frame" x="0.0" y="69" width="393" height="1128"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nrL-SG-Hw8" userLabel="DetailView">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1050"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1200"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="au8-sN-FG0">
                                                 <rect key="frame" x="8" y="0.0" width="377" height="200"/>
@@ -567,19 +567,19 @@
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="fKH-13-FIe">
-                                                <rect key="frame" x="5" y="900.33333333333337" width="383" height="130.33333333333337"/>
+                                                <rect key="frame" x="5" y="900.33333333333337" width="383" height="280.33333333333337"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GfA-IQ-LvO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="383" height="19.333333333333332"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="383" height="34.333333333333336"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Testimonials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGU-gj-N78">
-                                                                <rect key="frame" x="0.0" y="0.0" width="98" height="19.333333333333332"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="98" height="34.333333333333336"/>
                                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2t-fE-G8e">
-                                                                <rect key="frame" x="98" y="0.0" width="285" height="19.333333333333332"/>
+                                                                <rect key="frame" x="98" y="0.0" width="285" height="34.333333333333336"/>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" title="Leave a review">
                                                                     <color key="baseForegroundColor" red="0.8392156959" green="0.39607840779999998" blue="0.31764706970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -590,8 +590,8 @@
                                                             </button>
                                                         </subviews>
                                                     </stackView>
-                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kDe-qb-ki4">
-                                                        <rect key="frame" x="0.0" y="25.333333333333258" width="383" height="105"/>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="kDe-qb-ki4">
+                                                        <rect key="frame" x="0.0" y="40.333333333333258" width="383" height="240"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <connections>
                                                             <outlet property="dataSource" destination="bEl-do-Cha" id="wYP-Gp-LQM"/>
@@ -616,7 +616,7 @@
                                             <constraint firstItem="fKH-13-FIe" firstAttribute="top" secondItem="1f1-Ou-WP5" secondAttribute="bottom" constant="40" id="Yic-iV-xpt"/>
                                             <constraint firstItem="kDt-aK-n4y" firstAttribute="top" secondItem="Hby-cc-Cm2" secondAttribute="bottom" constant="15" id="adB-Ld-SWn"/>
                                             <constraint firstAttribute="trailing" secondItem="oQu-rp-LA6" secondAttribute="trailing" constant="8" id="bBw-n4-4WL"/>
-                                            <constraint firstAttribute="height" constant="1050" id="bTJ-sP-uPn"/>
+                                            <constraint firstAttribute="height" constant="1200" id="bTJ-sP-uPn"/>
                                             <constraint firstItem="Hby-cc-Cm2" firstAttribute="top" secondItem="kJT-rE-KDw" secondAttribute="bottom" constant="2" id="ba7-0S-ih2"/>
                                             <constraint firstItem="oQu-rp-LA6" firstAttribute="top" secondItem="kDt-aK-n4y" secondAttribute="bottom" constant="15" id="bch-LB-Mad"/>
                                             <constraint firstAttribute="trailing" secondItem="kDt-aK-n4y" secondAttribute="trailing" constant="8" id="dB2-G6-hfz"/>
@@ -2811,7 +2811,7 @@
                                                             <constraint firstAttribute="height" constant="50" id="cYt-0e-i1E"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue" textContentType="email"/>
+                                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="continue" textContentType="email"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wi5-zq-nwK">
                                                         <rect key="frame" x="0.0" y="196" width="333" height="50"/>
@@ -2970,7 +2970,7 @@
                                                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Dtech400@gmail.com" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sP5-P8-Utp">
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sP5-P8-Utp">
                                                                 <rect key="frame" x="0.0" y="24.333333333333314" width="333" height="50"/>
                                                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                                                 <constraints>

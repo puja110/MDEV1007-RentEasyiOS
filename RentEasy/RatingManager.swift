@@ -56,7 +56,7 @@ class RatingManager {
     func fetchRatings(for posterUserID: String, completion: @escaping ([Testimonial]) -> Void) {
            db.collection("users").document(posterUserID).collection("ratings").getDocuments { (querySnapshot, error) in
                if let error = error {
-                   print("Error getting documents: \(error)")
+                   print("Error getting documents-> \(error)")
                    completion([])
                } else {
                    let testimonials = querySnapshot?.documents.compactMap { document -> Testimonial? in

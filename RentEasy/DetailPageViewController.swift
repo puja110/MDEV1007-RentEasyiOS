@@ -67,7 +67,7 @@ class DetailPageViewController: UIViewController, UIViewControllerTransitioningD
         }
     }
     
-    //MARK: - FETCH RATING FOR TESTIMONIES
+    //MARK: - RATING FOR TESTIMONIES
     func fetchRatings() {
         if let posterUserID = selectedItem?.posterUserID {
             RatingManager.shared.fetchRatings(for: posterUserID) { [weak self] fetchedTestimonials in
@@ -157,7 +157,7 @@ extension DetailPageViewController: UICollectionViewDataSource, UICollectionView
 
 extension DetailPageViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return testimonials.count
+        return min(testimonials.count, 3)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -165,11 +165,21 @@ extension DetailPageViewController: UITableViewDataSource {
         let comments = testimonials[indexPath.row]
         cell.reviewersName.text = comments.name
         cell.reviewersComment.text = comments.comment
+        
+        let rating = comments.rating
+            for (index, imageView) in cell.ratingImageViews.enumerated() {
+                if index < rating {
+                    imageView.image = UIImage(systemName: "star.fill")
+                } else {
+                    imageView.image = UIImage(named: "star")
+                }
+            }
+        
         return cell
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 134
+        return 80
     }
 }
 
@@ -215,6 +225,7 @@ extension DetailPageViewController {
 
 //MARK: - PROPERTY MANAGER SECTION
 extension DetailPageViewController {
+    //MARK: Average Rating
     func updatePropertyManagerRatingSection() {
         guard !testimonials.isEmpty else {
             return
@@ -240,6 +251,7 @@ extension DetailPageViewController {
         }
     }
     
+    //MARK: - Manager Details
     func fetchRatingForPropertyManager() {
         if let posterUserID = selectedItem?.posterUserID {
             RatingManager.shared.fetchRatings(for: posterUserID) { [weak self] fetchedTestimonials in

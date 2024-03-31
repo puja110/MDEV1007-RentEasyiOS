@@ -11,7 +11,8 @@ class TestimonialTableViewCell: UITableViewCell {
 
     @IBOutlet weak var reviewersName: UILabel!
     @IBOutlet weak var reviewersComment: UITextView!
-    
+    @IBOutlet var ratingImageViews: [UIImageView]!
+
     
     override func awakeFromNib() {
         super.awakeFromNib()
