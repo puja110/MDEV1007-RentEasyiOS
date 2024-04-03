@@ -79,7 +79,7 @@ class PropertyManager {
            let db = Firestore.firestore()
            db.collection("properties").getDocuments { (querySnapshot, err) in
                if let err = err {
-                   print("Error getting documents: \(err)")
+                   print("Error getting documents-> \(err)")
                    completion(nil, err)
                } else {
                    var propertiesArray = [Property]()
