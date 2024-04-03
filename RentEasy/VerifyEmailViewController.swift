@@ -20,6 +20,14 @@ class VerifyEmailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Check if email property has a value
+        if let email = userEmail {
+            // Use userEmail in your view controller
+            print("Received email: \(email)")
+        } else {
+            print("Email parameter not received.")
+        }
+        
         uiField()
     }
     
@@ -62,7 +70,7 @@ class VerifyEmailViewController: UIViewController {
                 self.showAlertSuccess("Email verified successfully!")
                 
             } else {
-                self.showAlert("Verify email. Check email inbox.")
+                self.showAlert("Please check your inbox and verify account from email before procees further.")
             }
         }
         
