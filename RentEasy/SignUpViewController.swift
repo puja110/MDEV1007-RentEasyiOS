@@ -106,6 +106,7 @@ class SignUpViewController: UIViewController {
     private func performSegueToVerifyEmailVC() {
         if let verifyEmailVC = storyboard?.instantiateViewController(withIdentifier: "VerifyEmailVC") as? VerifyEmailViewController {
             verifyEmailVC.modalPresentationStyle = .fullScreen
+            verifyEmailVC.userEmail = emailTextField.text
             present(verifyEmailVC, animated: true, completion: nil)
         }
     }
